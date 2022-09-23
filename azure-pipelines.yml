@@ -19,6 +19,7 @@ stages:
     displayName: Build
     pool:
       vmImage: ubuntu-latest
+      name: Self Hosted Agent
     steps:
     - task: Docker@2
       inputs:
